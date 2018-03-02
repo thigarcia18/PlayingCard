@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFD4BC1B2049B813000D08B2 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4BC1A2049B813000D08B2 /* PlayingCardView.swift */; };
 		AFFD0536203C99A400910B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD0535203C99A400910B66 /* AppDelegate.swift */; };
 		AFFD0538203C99A400910B66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD0537203C99A400910B66 /* ViewController.swift */; };
 		AFFD053B203C99A400910B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFD0539203C99A400910B66 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFD4BC1A2049B813000D08B2 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 		AFFD0532203C99A400910B66 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFD0535203C99A400910B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFFD0537203C99A400910B66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,11 +60,14 @@
 		AFFD0534203C99A400910B66 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				AFFD0547203C99BB00910B66 /* Supporting Files */,
+				AFFD0548203C99E100910B66 /* PlayingCard.swift */,
+				AFFD054A203C9D8900910B66 /* PlayingCardDeck.swift */,
 				AFFD0537203C99A400910B66 /* ViewController.swift */,
+				AFD4BC1A2049B813000D08B2 /* PlayingCardView.swift */,
 				AFFD0539203C99A400910B66 /* Main.storyboard */,
 				AFFD053C203C99A400910B66 /* Assets.xcassets */,
 				AFFD0541203C99A400910B66 /* Info.plist */,
+				AFFD0547203C99BB00910B66 /* Supporting Files */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -72,8 +77,6 @@
 			children = (
 				AFFD0535203C99A400910B66 /* AppDelegate.swift */,
 				AFFD053E203C99A400910B66 /* LaunchScreen.storyboard */,
-				AFFD0548203C99E100910B66 /* PlayingCard.swift */,
-				AFFD054A203C9D8900910B66 /* PlayingCardDeck.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				AFFD0538203C99A400910B66 /* ViewController.swift in Sources */,
 				AFFD054B203C9D8900910B66 /* PlayingCardDeck.swift in Sources */,
 				AFFD0549203C99E100910B66 /* PlayingCard.swift in Sources */,
+				AFD4BC1B2049B813000D08B2 /* PlayingCardView.swift in Sources */,
 				AFFD0536203C99A400910B66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
